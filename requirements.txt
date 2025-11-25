@@ -1,0 +1,15 @@
+# Framework web
+Flask==3.0.3
+flask-cors==4.0.1
+
+# Servidor WSGI para producción (Render)
+gunicorn==21.2.0
+
+# Procesamiento numérico
+numpy==1.26.4
+
+# Visión por computadora (sin necesidad de GUI, ideal para Render)
+opencv-python-headless==4.9.0.80
+
+# MediaPipe para FaceMesh / detección de ojos
+mediapipe==0.10.14
